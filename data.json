@@ -1,0 +1,116 @@
+{
+    "productos": [
+        {
+            "id": 0,
+            "nombre": "?",
+            "precio": 1000,
+            "stock": 10,
+            "img": "test.png"
+        },
+        {
+            "id": 1,
+            "nombre": "?",
+            "precio": 2000,
+            "stock": 10,
+            "img": "test.png"
+        },
+        {
+            "id": 2,
+            "nombre": "?",
+            "precio": 3000,
+            "stock": 10,
+            "img": "test.png"
+        },
+        {
+            "id": 3,
+            "nombre": "?",
+            "precio": 4000,
+            "stock": 10,
+            "img": "test.png"
+        },
+        {
+            "id": 4,
+            "nombre": "?",
+            "precio": 5000,
+            "stock": 10,
+            "img": "test.png"
+        },
+        {
+            "id": 5,
+            "nombre": "?",
+            "precio": 6000,
+            "stock": 10,
+            "img": "test.png"
+        },
+        {
+            "id": 6,
+            "nombre": "?",
+            "precio": 7000,
+            "stock": 10,
+            "img": "test.png"
+        },
+        {
+            "id": 7,
+            "nombre": "?",
+            "precio": 8000,
+            "stock": 10,
+            "img": "test.png"
+        },
+        {
+            "id": 8,
+            "nombre": "?",
+            "precio": 9000,
+            "stock": 10,
+            "img": "test.png"
+        },
+        {
+            "id": 9,
+            "nombre": "?",
+            "precio": 10000,
+            "stock": 10,
+            "img": "test.png"
+        },
+        {
+            "id": 10,
+            "nombre": "?",
+            "precio": 20000,
+            "stock": 10,
+            "img": "test.png"
+        },
+        {
+            "id": 11,
+            "nombre": "?",
+            "precio": 30000,
+            "stock": 10,
+            "img": "test.png"
+        },
+        {
+            "id": 12,
+            "nombre": "?",
+            "precio": 40000,
+            "stock": 10,
+            "img": "test.png"
+        },
+        {
+            "id": 13,
+            "nombre": "?",
+            "precio": 50000,
+            "stock": 10,
+            "img": "test.png"
+        },
+        {
+            "id": 14,
+            "nombre": "?",
+            "precio": 60000,
+            "stock": 10,
+            "img": "test.png"
+        },
+        {
+            "id": 15,
+            "nombre": "?",
+            "precio": 70000,
+            "stock": 10,
+            "img": "test.png"
+        }
+    ]
+}
