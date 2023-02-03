@@ -63,13 +63,13 @@ const agregar = (id) => {
         destination: "carrito.html",
         newWindow: true,
         close: true,
-        gravity: "bottom", // `top` or `bottom`
-        position: "right", // `left`, `center` or `right`
-        stopOnFocus: true, // Prevents dismissing of toast on hover
+        gravity: "bottom", 
+        position: "right", 
+        stopOnFocus: true, 
         style: {
             background: "linear-gradient(to right, #808080, #000000)",
         },
-        onClick: function () { } // Callback after click
+        onClick: function () { } 
     }).showToast();
 }
 
