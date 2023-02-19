@@ -55,6 +55,12 @@ function mostrarCards(productos) {
                 </button> 
                 </div>
             </div>
+            <a style="display: contents; margin: auto"
+                        href="verProducto.html" target="_BLANK">
+                        <button class="btn btn-outline-dark mt-auto"
+                        onclick= verProducto(${element.id})>
+                        Ver Producto
+                        </button></a>
         </div>
     </div>
     </div>`

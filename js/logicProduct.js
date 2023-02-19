@@ -1,3 +1,6 @@
+// **************************************************************//
+// *********************     Functions     **********************//
+// **************************************************************//
 
 let tuCarrito = validarStorageCarrito()
 let productosSinStock = sinStock()
@@ -22,6 +25,11 @@ function validarStorageCarrito() {
 
 let productos = []
 
+
+const verProducto = (id) => {
+    productoQueQuiereVer = productos.find(element => element.id === id);
+    localStorage.setItem("productoAVer", JSON.stringify(productoQueQuiereVer));
+}
 
 
 function botonDelCarrito(id) {
@@ -63,13 +71,13 @@ const agregar = (id) => {
         destination: "carrito.html",
         newWindow: true,
         close: true,
-        gravity: "bottom", 
-        position: "right", 
-        stopOnFocus: true, 
+        gravity: "bottom", // `top` or `bottom`
+        position: "right", // `left`, `center` or `right`
+        stopOnFocus: true, // Prevents dismissing of toast on hover
         style: {
             background: "linear-gradient(to right, #808080, #000000)",
         },
-        onClick: function () { } 
+        onClick: function () { } // Callback after click
     }).showToast();
 }
 

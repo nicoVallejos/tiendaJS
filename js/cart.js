@@ -67,6 +67,16 @@ function finalizarCompra() {
 }
 
 
+const verProducto = (id) => {
+    fetch('data.json')
+        .then((res) => res.json())
+        .then((data) => {
+            let productos = data.productos
+            productoQueQuiereVer = productos.find(element => element.id === id);
+            localStorage.setItem("productoAVer", JSON.stringify(productoQueQuiereVer));
+        })
+}
+
 
 const mostrarCardsEnElHTML = (cards) => {
     document.getElementById("listado-productos").innerHTML = cards;
@@ -103,6 +113,12 @@ function cardCarrito(productosAMostrar) {
                         class="btn btn-outline-dark mt-auto" href="#">
                         sacar un producto
                     </button>
+                    <a href="verProducto.html" target="_BLANK">
+                    <button
+                        onclick = verProducto(${elementoDelArray.id})
+                        class="btn btn-outline-dark mt-auto" href="#" _BLANK>
+                        Ver producto
+                    </button></a>
                 </div>
             </div>
         </div>
